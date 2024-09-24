@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Bubble App</title>
+  </head>
+  <body>
+      <h3>Bubbles App</h3>
+      <div class="navbar">
+        <img src="left arrow.png" alt="Image 1">
+        <img src="right arrow.png" alt="Image 2">
+        <img src="cross.png" alt="Image 3">
+        <img src="home.png" alt="Image 4">
+        <div class="search-box">
+            <input type="text" placeholder="https://localhost:80">
+            <button type="submit">Search</button>
+        </div>
+    </div>
+
+    <h1 style="text-align: center">Bubbles App</h1>
+    <div class="box">
+      <div
+        class="bubble"
+        style="top: 50px; left: 50px; background-color: yellow"
+      ></div>
+      <div
+        class="bubble"
+        style="top: 120px; left: 50px; background-color: blue"
+      ></div>
+      <div
+        class="bubble"
+        style="top: 190px; left: 50px; background-color: red"
+      ></div>
+      <div
+        class="bubble"
+        style="top: 260px; left: 50px; background-color: lightgreen"
+      ></div>
+
+      <div class="arrow" style="top: 50px; left: 70vw" ><img src="arrow.png" alt=""></div>
+      <div class="arrow" style="top: 120px; left: 70vw"><img src="arrow.png" alt=""></div>
+      <div class="arrow" style="top: 190px; left: 70vw"><img src="arrow.png" alt=""></div>
+      <div class="arrow" style="top: 260px; left: 70vw"><img src="arrow.png" alt=""></div>
+    </div>
+    <button class="btn" onclick="reset()">Reset</button>
+    <div class="footer">
+        <p>//</p>
+    </div>
+  </body>
+</html>
+<script src="index.js"></script>
